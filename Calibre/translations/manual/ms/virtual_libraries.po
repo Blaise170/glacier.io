@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Kovid Goyal
+# This file is distributed under the same license as the calibre package.
+# 
+# Translators:
+# abuyop <abuyop@gmail.com>, 2015,2017
+msgid ""
+msgstr ""
+"Project-Id-Version: calibre\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-15 19:42+0530\n"
+"PO-Revision-Date: 2017-12-16 14:06+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
+"Language-Team: Malay (http://www.transifex.com/calibre/calibre/language/ms/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ms\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:5
+msgid "Virtual libraries"
+msgstr "Pustaka maya"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:7
+msgid ""
+"In calibre, a virtual library is a way to tell calibre to open only a subset"
+" of a normal library. For example, you might want to only work with books by"
+" a certain author, or books having only a certain tag. Using virtual "
+"libraries is the preferred way of partitioning your large book collection "
+"into smaller sub collections. It is superior to splitting up your library "
+"into multiple smaller libraries as, when you want to search through your "
+"entire collection, you can simply go back to the full library. There is no "
+"way to search through multiple separate libraries simultaneously in calibre."
+msgstr "Dalam calibre, pustaka maya merupakan cara memberitahu calibre hanya paparkan subset dari pustaka biasa. Sebagai contoh, anda mahu buka buku dengan pengarang tertentu, atau buku dengan tag tertentu. Menerusi pustaka maya, ia adalah cara terbaik membahagikan koleksi buku anda kepada sub-koleksi yang lebih kecil. Adalah lebih berkesan memisahkan pustaka anda menjadi beberapa pustaka kecil, bila anda mahu menggelintar keseluruhan koleksi anda, anda hanya kembali ke pustaka penuh anda. Walaubagaimanapun tidak mungkin dapat menggelintar beberapa pustaka yang berlainan secara serentak di dalam calibre."
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:16
+msgid ""
+"A virtual library is different from a simple search. A search will only "
+"restrict the list of books shown in the book list. A virtual library does "
+"that, and in addition it also restricts the entries shown in the "
+":guilabel:`Tag browser` to the left. The Tag browser will only show tags, "
+"authors, series, publishers, etc. that come from the books in the virtual "
+"library. A virtual library thus behaves as though the actual library "
+"contains only the restricted set of books."
+msgstr "Pustaka maya adalah berlainan dari penggelintaran biasa. Gelintar hanya hadkan senarai buku yang dipapar dalam senarai buku. Pustaka buku pula melakukan perkara yang serupa, dan juga hadkan masukan yang terpapar dalam :guilabel:`Pelayar Tag` disebelah kiri. Pelayar Tag hanya akan paparkan tag, pengarang, siri, penerbit, dan lain-lain yang ada dalam buku di dalam pustaka maya. Oleh itu pustaka maya bertindak sebagai pustaka sebenar yang menghadkan sekumpulan buku-buku."
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:24
+msgid "Creating Virtual libraries"
+msgstr "Mencipta Pustaka maya"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:29
+msgid ""
+"|vlb| To use a virtual library click the :guilabel:`Virtual library` button "
+"located to the left of the Search bar and select the :guilabel:`Create "
+"Virtual library` option. As a first example, let's create a virtual library "
+"that shows us only the books by a particular author. Click the "
+":guilabel:`Authors` link as shown in the image below and choose the author "
+"you want to use and click OK."
+msgstr "|vlb| Untuk guna pustaka maya klik butang :guilabel:`Pustaka maya` yang terletak disebelah kiri palang gelintar kemudian pilih pilihan :guilabel:`Cipta Pustaka maya`. Sebagai contoh pertama, mari kita bina pustaka maya yang hanya paparkan buku berdasarkan pengarang tertentu. Klik pautan :guilabel:`Pengarang` yang ditunjukkn dalam imej di bawah dan pilih pengarang yang anda mahu guna dan klik OK."
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:38
+msgid ""
+"The Create Virtual library dialog has been filled in for you. Click OK and "
+"you will see that a new Virtual library has been created, and automatically "
+"switched to, that displays only the books by the selected author. As far as "
+"calibre is concerned, it is as if your library contains only the books by "
+"the selected author."
+msgstr "Dialog Cipta pustaka Maya telah diisikan untuk anda. Klik OK dan anda akan lihat Pustaka maya baharu telah dicipta, ditukar secara automatik kepadanya, yang hanya papar buku mengikut pengarang terpilih. Sepertimana yang calibre buat, jika pustaka anda hanya mengandungi buku mengikut pengarang terpilih."
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:44
+msgid ""
+"You can switch back to the full library at any time by once again clicking "
+"the :guilabel:`Virtual library` and selecting the entry named "
+":guilabel:`<None>`."
+msgstr "Anda boleh tukar kembali ke pustaka penuh pada bila-bila masa dengan mengklik sekali :guilabel:`Pustaka maya` dan pilih masukan bernama :guilabel:`<None>`."
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:47
+msgid ""
+"Virtual libraries are based on *searches*. You can use any search as the "
+"basis of a virtual library. The virtual library will contain only the books "
+"matched by that search. First, type in the search you want to use in the "
+"Search bar or build a search using the :guilabel:`Tag browser`. When you are"
+" happy with the returned results, click the Virtual library button, choose "
+":guilabel:`Create library` and enter a name for the new virtual library. The"
+" virtual library will then be created based on the search you just typed in."
+" Searches are very powerful, for examples of the kinds of things you can do "
+"with them, see :ref:`search_interface`."
+msgstr "Pustaka Maya berasaskan pada *penggelintaran*. Anda boleh guna mana-mana gelintar sebagai asas pustaka maya. Pustaka maya hanya akan mengandungi buku yang sepadan dengan gelintar tersebut. Mula-mula, taip apa yang anda mahu di dalam palang gelintar atau bina gelintar menggunakan :guilabel:`Pelayar Tag`. Bila anda suka dengan hasil keputusan, klik butang Pustaka maya, pilih :guilabel:`Cipta pustaka` dan masukkan nama pustaka maya baharu. Pustaka maya akan dicipta berdasarkan gelintar yang anda telah buat. Gelintar adalah sangat berguna, sebagai contoh perkara yang anda boleh buat dengannya, sila rujuk :ref:`search_interface`."
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:58
+msgid "Examples of useful Virtual libraries"
+msgstr "Contoh pustaka Maya yang berguna"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:60
+msgid "Books added to calibre in the last day::"
+msgstr "Buku ditambah ke dalam calibre pada hari terakhir::"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:61
+msgid "date:>1daysago"
+msgstr "date:>1daysago"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:62
+msgid "Books added to calibre in the last month::"
+msgstr "Buku ditambah ke dalam calibre pada bulan terakhir::"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:63
+msgid "date:>30daysago"
+msgstr "date:>30daysago"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:64
+msgid "Books with a rating of 5 stars::"
+msgstr "Buku dengan penarafan 5 bintang::"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:65
+msgid "rating:5"
+msgstr "rating:5"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:66
+msgid "Books with a rating of at least 4 stars::"
+msgstr "Buku dengan penarafan sekurang-kurangnya 4 bintang::"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:67
+msgid "rating:>=4"
+msgstr "rating:>=4"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:68
+msgid "Books with no rating::"
+msgstr "Buku tanpa penarafan::"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:69
+msgid "rating:false"
+msgstr "rating:false"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:70
+msgid "Periodicals downloaded by the Fetch News function in calibre::"
+msgstr "Muat turun berkala oleh fungsi Dapatkan Berita di dalam calibre::"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:71
+msgid "tags:=News and author:=calibre"
+msgstr "tags:=News and author:=calibre"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:72
+msgid "Books with no tags::"
+msgstr "Buku tanpa tag::"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:73
+msgid "tags:false"
+msgstr "tags:false"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:75
+msgid "Books with no covers::"
+msgstr "Buku tanpa kulit hadapan::"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:75
+msgid "cover:false"
+msgstr "cover:false"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:78
+msgid "Working with Virtual libraries"
+msgstr "Mengendalikan Pustaka maya"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:80
+msgid ""
+"You can edit a previously created virtual library or remove it, by clicking "
+"the :guilabel:`Virtual library` and choosing the appropriate action."
+msgstr "Anda boleh menyunting pustaka maya yang dicipta sebelum ini atau membuangnya, dengan mengklik :guilabel:`Pustaka maya` dan pilih tindakan yang berkaitan."
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:83
+msgid ""
+"You can tell calibre that you always want to apply a particular virtual "
+"library when the current library is opened, by going to "
+":guilabel:`Preferences->Interface->Behavior`."
+msgstr "Anda boleh memberitahu calibre yang mana anda mahu sentiasa laksanakan pustaka maya tertentu bila pustaka semasa dibuka, dengan pergi ke :guilabel:`Keutamaan->Antaramuka->Kelakuan`."
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:87
+msgid ""
+"You can quickly use the current search as a temporary virtual library by "
+"clicking the :guilabel:`Virtual library` button and choosing the "
+":guilabel:`*current search` entry."
+msgstr "Anda boleh guna secara pantas gelintar semasa sebagai pustaka maya sementara dengan mengklik butang :guilabel:`Pustaka maya` dan pilih masukan :guilabel:`*gelintar semasa`."
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:91
+msgid ""
+"You can display all available virtual libraries as tabs above the book list."
+" This is particularly handy if you like switching between virtual libraries "
+"very often. Click the :guilabel:`Virtual library` button and select "
+":guilabel:`Show virtual libraries as tabs`. You can re-arrange the tabs by "
+"drag and drop and close ones you do not want to see. Closed tabs can be "
+"restored by right-clicking on the tab bar."
+msgstr "Anda boleh paparkan semua pustaka maya yang ada berdasarkan tab diatas senarai buku. Ia memudahkan jika anda mahu tukar diantara pustaka maya - pustaka maya secara kerap. Klik butang :guilabel:`Pustaka maya` dan pilih :guilabel:`Tunjuk pustaka maya sebagai tab`. Anda boleh menyusun-semula tab dengan seret dan lepas kemudian tutup tab yang anda tidak mahu. Tab yang telah ditutup boleh dikembalikan dengan mengklik-kanan pada palang tab."
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:99
+msgid "Using Virtual libraries in searches"
+msgstr "Menggunakan Pustaka maya dalam penggelintaran"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:101
+msgid ""
+"You can search for books that are in a virtual library using the ``vl:`` "
+"prefix. For example, ``vl:Read`` will find all the books in the *Read* "
+"virtual library. The search ``vl:Read and vl:\"Science Fiction\"`` will find"
+" all the books that are in both the *Read* and *Science Fiction* virtual "
+"libraries."
+msgstr "Anda boleh menggelintar buku yang berada di dalam pustaka maya dengan menggunakan awalan ``vl:``. Sebagai contoh, ``vl:Read`` akan mencari semua buku dalam pustaka maya *Read*. Gelintar ``vl:Read dan diikuti vl:\"Science Fiction\"`` akan mencari semua buku yang berada dalam pustaka maya *Read* dan *Science Fiction*."
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:106
+msgid ""
+"The value following ``vl:`` must be the name of a virtual library. If the "
+"virtual library name contains spaces then surround it with quotes."
+msgstr "Nilai ``vl:`` berikut mestilah nama pustaka maya. Jika nama pustaka maya mengandungi jarak maka kurung ia dengan tanda petikan."
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:109
+msgid ""
+"One use for a virtual library search is in the content server. In "
+":guilabel:`Preferences->Sharing over the net->Require username/password` you"
+" can limit the calibre libraries visible to a user. For each visible library"
+" you can specify a search expression to further limit which books are seen. "
+"Use ``vl:\"Virtual library name\"`` to limit the books to those in a virtual"
+" library."
+msgstr "Salah satu penggunaan gelintar pustaka maya ialah dengan pelayan kandungan. Pada :guilabel:`Keutamaan->Perkongsian melalui rangkaian->Perlu namapengguna/katalaluan` anda boleh hadkan pustaka calibre yang boleh dilihat oleh pengguna. Bagi setiap pustaka yang kelihatan anda boleh tentukan ungkapan gelintar yang menghadkan buku yang boleh dilihat. Guna ``vl:\"Virtual library name\"`` untuk hadkan buku yang berada di dalam sesebuah pustaka maya."
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:116
+msgid "Using additional restrictions"
+msgstr "Menggunaan sekatan tambahan"
+
+#: ../../home/kovid/work/calibre/manual/virtual_libraries.rst:118
+msgid ""
+"You can further restrict the books shown in a Virtual library by using "
+":guilabel:`Additional restrictions`. An additional restriction is saved "
+"search you previously created that can be applied to the current Virtual "
+"library to further restrict the books shown in a virtual library. For "
+"example, say you have a Virtual library for books tagged as "
+":guilabel:`Historical Fiction` and a saved search that shows you unread "
+"books, you can click the :guilabel:`Virtual Library` button and choose the "
+":guilabel:`Additional restriction` option to show only unread Historical "
+"Fiction books. To learn about saved searches, see :ref:`saved_searches`."
+msgstr "Anda boleh sekat lagi buku yang terpapar di dalam Pustaka maya melalui :guilabel:`Sekatan tambahan`. Sekatan tambahan merupakan gelintar tersimpan yang anda buat sebelum ini yang boleh dilaksanakan ke Pustaka Maya semasa untuk menghadkan lagi buku yang terpapar di dalam pustaka maya. Sebagai contoh anda mempunyai buku yang ditag sebagai :guilabel:`Fiksyen Bersejarah` dan gelintar tersimpan menunjukkan buku belum dibaca, anda boleh klik butang :guilabel:`Pustaka Maya` dan pilih pilihan :guilabel:`Sekatan tambahan` untuk hanya paparkan buku Fiksyen Bersejarah yang belum dibaca. Untuk maklumat lanjut mengenai gelintar tersimpan, rujuk :ref:`saved_searches`."
